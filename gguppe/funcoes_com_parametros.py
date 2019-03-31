@@ -7,7 +7,7 @@ Funções com Paramêtros (de entrada)
 - Paramêtros são variáveis declaradas na definição de uma função
 - Argumento são dados passados durante a execução de uma função
 - A ordem dos paramêtros importa
-"""
+
 # Refatorando uma função
 
 
@@ -67,10 +67,10 @@ print(nome_completo('Diego', 'Parente'))
 # utilizar qualquer ordem
 print(nome_completo(nome='Diego', sobrenome='Parente'))
 print(nome_completo(sobrenome='Parente', nome='Diego'))
+"""
 
 
 # Erros comuns na utilização do return
-
 def somar_impares(numeros):
     total = 0
     for num in numeros:
@@ -79,4 +79,9 @@ def somar_impares(numeros):
     return total
 
 
-print(somar_impares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+if __name__ == '__main__':
+    print(somar_impares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+    print(somar_impares([1, 2, 3, 4, 5, 6, 7, 8]))
+    print(somar_impares([1, 2, 3, 4, 5, 6, 7]))
+else:
+    print('O módulo python foi importado')
