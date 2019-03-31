@@ -1,0 +1,5 @@
+Eu estou fazendo um curso na Geek University.
+
+Estou estudando Python.
+
+Outro texto.
