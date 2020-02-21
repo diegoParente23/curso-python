@@ -1,4 +1,3 @@
-
 # Tuples used how registers
 
 lax_coordinates = (33.9425, -118.408056)
